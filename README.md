@@ -14,6 +14,8 @@ Rabbit MQ
 - Enable RabbitMQ Management UI: [https://www.rabbitmq.com/management-cli.html](https://www.rabbitmq.com/management-cli.html)
 ```bash
 	> rabbitmq-plugins enable rabbitmq_management
+## to enable consistant hashing exchange 
+	> rabbitmq-plugins enable rabbitmq_consistent_hash_exchange
 ```
 - Now access Management Console : [http://localhost:15672](http://localhost:15672)
 	- Default username/password : guest/guest
